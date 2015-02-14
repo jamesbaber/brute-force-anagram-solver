@@ -21,7 +21,7 @@ except:
 	pass
 else:
 	# If --help called then show help and close
-	if sys.argv[1] == "--help" or "help" or "?":
+	if sys.argv[1] == "--help" or sys.argv[1] == "help" or sys.argv[1] == "?":
 		print("solver.py 1 2 3")
 		print("arg 1 - an anagram to solve")
 		print("arg 2 - Whether or not to find all possibilities or just the first (1 or 0, where 1 is all)")
