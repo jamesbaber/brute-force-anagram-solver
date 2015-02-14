@@ -1,7 +1,7 @@
 import random, sys
 
 # Load dictionary
-with open("test.csv") as f:
+with open("words.csv") as f:
 	dictionary = f.readlines()
 i = 0
 for x in dictionary:
