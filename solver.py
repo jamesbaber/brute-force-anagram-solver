@@ -15,6 +15,7 @@ print("...but fun")
 print("We randomise the anagram and search for it in")
 print("~58,000 dictionary words")
 
+# If command argument 1 is defined and "--help" (etc) then show help and exit
 try:
 	sys.argv[1]
 except:
@@ -106,7 +107,7 @@ while 1:
 			if logAttempts == 1:
 				print("Attempt: " + str(attempt))
 			
-		# Increment the attempt
+		# Increment the attempt number
 		attempt += 1
 		
 		# Remember this try so we don't do it again
